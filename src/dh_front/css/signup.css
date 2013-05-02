@@ -1,0 +1,44 @@
+.login-form {
+    width: 320px;
+    margin: 35px auto;
+}
+.login-form .input-item {
+    position: relative;
+    height: 45px;
+    margin-bottom: 20px;
+    background: url("../imgs/signup/login_input_bg.png") no-repeat;
+    color: #fff;
+    font-size: 14px;
+}
+.login-form .input-item label {
+    display: block;
+    position: absolute;
+    left: 11px;
+    top: 13px;
+    width: 300px;
+    cursor: text;
+}
+.login-form .input-item .input {
+    width: 300px;
+    height: 25px;
+    margin: 10px;
+    border: none;
+    background-color: #8fa9c4;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+}
+.login-form .submit { margin: 20px 0 25px;}
+.login-form .submit .btn {
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: url("../imgs/signup/login_btn.png") no-repeat;
+    cursor: pointer;
+}
+.login-form .forgot-password {
+    float: right;
+    display: inline;
+    color: #778ea6;
+}
+.login-form .reg-link { color: #5cb171;}
