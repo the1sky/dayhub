@@ -1,0 +1,15 @@
+test in the good things  that you can do in
+the great things in the great goo
+
+test in idea IDE, you will find the great things
+
+package{
+    import me.dayhub.*;
+    public function class Test{
+        public function Test():void{
+            var arr:Array = [];
+            var dict:Dictivivonary = new Dictionary();
+            var s:String = 'only a test';
+        }
+    }
+}
