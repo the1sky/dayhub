@@ -2,13 +2,17 @@ __author__ = 'dumingtan'
 
 from django.http import HttpResponse, Http404
 from django.db import connection
+from django.template import Context, loader
 import datetime
 
 def hello(request):
     return HttpResponse('hello world')
 
 def homepage(request):
-    return HttpResponse( 'welcome to my home' )
+    t = loader.get_template('index.html')
+    c = Context({
+    })
+    return HttpResponse( t.render( c ) )
 
 def current_datetime(request):
     now = datetime.datetime.now()
